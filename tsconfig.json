@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outFile": "./dist/chemistry.js",
+    "module": "AMD",
+    "target": "ES5",
+    "lib": ["ES2020", "DOM"],
+    "declaration": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true
+  },
+  "include": ["src/**/*.ts"]
+}
